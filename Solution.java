@@ -34,9 +34,9 @@ class Solution{
 
 		return dp[price.length][n];
 	}
-	/*
+	
 	//function to solve problem
-	public static int maxProfit(int[] price, int[] amount, int n){
+	public static int maxProfit2(int[] price, int[] amount, int n){
 		int[] dp = new int[n + 1];
 		for(int r = 0; r <= n; ++r){
 			for(int c = 0; c < price.length; ++c){
@@ -49,5 +49,5 @@ class Solution{
 
 		return dp[n];
 	}
-	*/
+	
 }
