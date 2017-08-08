@@ -14,9 +14,9 @@ Assumptions: No negative values. Quantity is how much each company wants at that
 
 
 Intutition: 
-Sounds similar to Coin Change problem
-This may indiciate it's a DP problem or even a Greedy algorithm -> but has proven not to work for all cases
+Sounds similar to KnapSack Problem
+This may indiciate it's a DP problem or even a Greedy algorithm -> but has proven not to work for some cases
 
 Usually problems that ask for max or min is a DP question
 
-Can see this problem being O(n)
+Can see this problem being O(n) or O(n)^2 depending on how I want to store my values in an array. 
