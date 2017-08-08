@@ -26,4 +26,20 @@ class Solution{
 
 		return dp[price.length][n];
 	}
+	/*
+	//function to solve problem
+	public static int maxProfit(int[] price, int[] amount, int n){
+		int[] dp = new int[n + 1];
+		for(int r = 0; r <= n; ++r){
+			for(int c = 0; c < price.length; ++c){
+				if(amount[c] <= r){
+					dp[r] = Math.max(price[c]+ dp[r - amount[c]] , dp[r]);
+				}
+			}
+		}
+		//max(do pick + then one that is remaining, then best what you cdo so far(look up) )
+
+		return dp[n];
+	}
+	*/
 }
