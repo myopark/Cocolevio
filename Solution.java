@@ -10,14 +10,14 @@ class Solution{
 		int[] amount = {1,2,3,4,5,6,7,8,9,10};
 		int[] price = {1,5,8,9,10,17,17,20,24,30};
 		int n = 20;
-		System.out.println(maxProfit(price, amount, n)); // 60 or 56
-		System.out.println(maxProfit(price,amount, 2)); //5
-		System.out.println(maxProfit(price,amount, 0)); //0
-		System.out.println(maxProfit(price,amount, 12)); //35
-		System.out.println(maxProfit(price,amount, 6)); //17
+		System.out.println(maxProfit2(price, amount, n)); // 60 or 56
+		System.out.println(maxProfit2(price,amount, 2)); //5
+		System.out.println(maxProfit2(price,amount, 0)); //0
+		System.out.println(maxProfit2(price,amount, 12)); //35
+		System.out.println(maxProfit2(price,amount, 6)); //17
 		
 	}
-	//function to solve problem
+	//function to solve problem if duplicate companies were not allowed
 	public static int maxProfit(int[] price, int[] amount, int n){
 		int[][] dp = new int[price.length  + 1][n + 1];
 		for(int r = 1; r < dp.length; ++r){
