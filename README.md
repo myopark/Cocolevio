@@ -5,3 +5,9 @@ In our Materials Marketplace we have many different companies all looking for th
 Please use the following as sample data:
 
 https://s3.amazonaws.com/cocolevio-public/InterviewQuestionExample.PNG
+
+
+Question: Given a set of data with a company name, quantity, and price. What is the maximum profit each company can gain selling to the other companies?
+
+
+Assumptions: No negative values. Quantity is how much each company owns in assets. Price is how much they sell for? Or how much they will pay for?
