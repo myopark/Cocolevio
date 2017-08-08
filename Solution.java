@@ -1,3 +1,6 @@
+// KnapSack Problem: https://en.wikipedia.org/wiki/Knapsack_problem
+
+
 class Solution{
 	public static void main(String[] args){
 		//call function and test here
