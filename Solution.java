@@ -30,7 +30,7 @@ class Solution{
 				}
 			}
 		}
-		//max(do pick + then one that is remaining, then best what you cdo so far(look up) )
+		//max(do pick + then one that is remaining, then best what you can do so far(look up) )
 
 		return dp[price.length][n];
 	}
