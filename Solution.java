@@ -7,10 +7,10 @@ class Solution{
 		int[] amount = {1,2,3,4,5,6,7,8,9,10};
 		int[] price = {1,5,8,9,10,17,17,20,24,30};
 		int n = 20;
-		System.out.println(maxProfit(price, n));
+		System.out.println(maxProfit(price, amount, n));
 	}
 	//function to solve problem
-	public int maxProfit(int[] price, int n){
+	public int maxProfit(int[] price, int[] amount, int n){
 		int[][] dp = new int[price.length  + 1][n + 1];
 		for(int r = 1; r < dp.length; ++r){
 			for(int c = 1; c < dp[0].length; ++c){
