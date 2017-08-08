@@ -10,7 +10,7 @@ class Solution{
 		System.out.println(maxProfit(price, amount, n));
 	}
 	//function to solve problem
-	public int maxProfit(int[] price, int[] amount, int n){
+	public static int maxProfit(int[] price, int[] amount, int n){
 		int[][] dp = new int[price.length  + 1][n + 1];
 		for(int r = 1; r < dp.length; ++r){
 			for(int c = 1; c < dp[0].length; ++c){
