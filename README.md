@@ -7,7 +7,7 @@ Please use the following as sample data:
 https://s3.amazonaws.com/cocolevio-public/InterviewQuestionExample.PNG
 
 
-Question: Given a set of data with a company name, quantity, and price and N as in how much they have to sell to these companies. What is the maximum profit each company can gain selling to the other companies?
+Question: Given a set of data with a company name, quantity, and price and N (how much material that company has to sell). What is the maximum profit each company can gain selling to the other companies?
 
 
 Assumptions: No negative values. Quantity is how much each company wants at that price. 
