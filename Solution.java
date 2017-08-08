@@ -11,10 +11,10 @@ class Solution{
 		int[] price = {1,5,8,9,10,17,17,20,24,30};
 		int n = 20;
 		System.out.println(maxProfit(price, amount, n)); // 60 or 56
-		System.out.println(maxProfit(price,amount, 2));
-		System.out.println(maxProfit(price,amount, 0));
-		System.out.println(maxProfit(price,amount, 12));
-		System.out.println(maxProfit(price,amount, 6));
+		System.out.println(maxProfit(price,amount, 2)); //5
+		System.out.println(maxProfit(price,amount, 0)); //0
+		System.out.println(maxProfit(price,amount, 12)); //35
+		System.out.println(maxProfit(price,amount, 6)); //17
 		
 	}
 	//function to solve problem
